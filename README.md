@@ -27,21 +27,31 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 1. *http.host == “testing.mekanis.me”*
 ![Gambar 1.1](img/11.png)
 ![Gambar 1.2](img/12.png)
+
 2. ...
 ![Gambar 2.1](img/21.png)
 ![Gambar 2.2](img/22.png)
+
 3. *http.host == “ppid.dpr.go.id”*
 ![Gambar 3.1](img/31.png)
+
 4. ...
+
 5. *http.host == “aku.pengen.pw”*
 ![Gambar 5.1](img/51.png)
 ![Gambar 5.2](img/52.png)
+
 6. ...
+
 7. ...
+
 8. *ftp.request.command == RETR*
 ![Gambar 8.1](img/81.jpg)
+
 9. ...
+
 10. ...
+
 #### B. Capture Filter
 11. ...
 12. ...
