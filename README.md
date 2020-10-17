@@ -48,21 +48,30 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 8. *ftp.request.command == RETR*
 ![Gambar 8.1](img/81.jpg)
 
-9. *ftp.request.command =="USER"
+9. *ftp.request.command =="USER" untuk melihat Username*
 ![Gambar 9.1](img/no9.PNG)
-   ftp.request.command =="PASS"
+   *ftp.request.command =="PASS" untuk melihat Password*
 ![Gambar 9.2](img/no9pass.PNG)
-10. *Control+F
+10. *Control+F*
 ![Gambar 10.1](img/no10(1).PNG)
-    Klik kanan kemudian follow tcp stream, lalu ubah show and save data as menjadi RAW.
+    *Klik kanan kemudian follow tcp stream, lalu ubah show and save data as menjadi RAW.*
 ![Gambar 10.2](img/no10(2).PNG)
-    Klik tombol Save as dan simpan file pdf
+    *Klik tombol Save as dan simpan file pdf*
 ![Gambar 10.3](img/no10(3).PNG)
-    Buka file yang telah didownload
+    *Buka file yang telah didownload*
 ![Gambar 10.4](img/no10(4).PNG)
 #### B. Capture Filter
-11. ...
-12. ...
-13. ...
-14. ...
-15. ...
+11.*Buat User dan Shared Folder pada Filezilla Server kemudian log in sebagai User melalui Filezilla Client*
+![Gambar 11.1](img/no11(1).PNG)
+*Masukkab "port 21" pada "Capture filter for selected interfaces" dari adapter loopback traffic capture*
+![Gambar 11.2](img/no11(2).PNG)
+*File yang melalui port 21 atau FTP sudah terfilter*
+![Gambar 11.3](img/no11(3).PNG)
+12. *Masukkab "src port 80" pada "Capture filter for selected interfaces" dari Wi-Fi, kemudian akses website HTTP misalnya monta.if.its.ac.id*
+![Gambar 12](img/no12.PNG)
+13. *Masukkab "dst port 443" pada "Capture filter for selected interfaces" dari Wi-Fi, kemudian akses website HTTPS misalnya its.ac.id*
+![Gambar 13](img/no13.PNG)
+14. *Masukkab "src host 127.0.0.1" pada "Capture filter for selected interfaces" dari Adapter for loopback traffic capture*
+![Gambar 14](img/no14.PNG)
+15. *Masukkab "port 21" pada "Capture filter for selected interfaces" dari Wi-Fi, kemudian akses website monta.if.its.ac.id*
+![Gambar 15](img/no15.PNG)
