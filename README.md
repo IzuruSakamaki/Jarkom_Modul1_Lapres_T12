@@ -49,17 +49,17 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 ![Gambar 8.1](img/81.jpg)
 
 9. *ftp.request.command =="USER"
-![Gambar 9.1](img/no9.png)
+![Gambar 9.1](img/no9.PNG)
    ftp.request.command =="PASS"
-![Gambar 9.2](img/no9pass.png)
+![Gambar 9.2](img/no9pass.PNG)
 10. *Control+F
-![Gambar 10.1](img/no10(1).png)
+![Gambar 10.1](img/no10(1).PNG)
     Klik kanan kemudian follow tcp stream, lalu ubah show and save data as menjadi RAW.
-![Gambar 10.2](img/no10(2).png)
+![Gambar 10.2](img/no10(2).PNG)
     Klik tombol Save as dan simpan file pdf
-![Gambar 10.3](img/no10(3).png)
+![Gambar 10.3](img/no10(3).PNG)
     Buka file yang telah didownload
-![Gambar 10.4](img/no10(4).png)
+![Gambar 10.4](img/no10(4).PNG)
 #### B. Capture Filter
 11. ...
 12. ...
