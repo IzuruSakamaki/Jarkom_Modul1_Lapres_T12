@@ -73,5 +73,5 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 ![Gambar 13](img/no13.PNG)
 14. *Masukkab "src host 127.0.0.1" pada "Capture filter for selected interfaces" dari Adapter for loopback traffic capture*
 ![Gambar 14](img/no14.PNG)
-15. *Masukkab "port 21" pada "Capture filter for selected interfaces" dari Wi-Fi, kemudian akses website monta.if.its.ac.id*
+15. *Masukkab "src host monta.if.its.ac.id" pada "Capture filter for selected interfaces" dari Wi-Fi, kemudian akses website monta.if.its.ac.id*
 ![Gambar 15](img/no15.PNG)
