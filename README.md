@@ -24,9 +24,15 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 ## Jawaban
 #### A. Display Filter
-1. *http.host == “testing.mekanis.me”*
-![Gambar 1.1](img/11.png)
-![Gambar 1.2](img/12.png)
+1. 
+```sh
+http.host == “testing.mekanis.me”
+```
+![Gambar 1.1](img/11.jpg)
+```sh
+Follow TCP Stream
+```
+![Gambar 1.2](img/12.jpg)
 
 2. ...
 ![Gambar 2.1](img/21.png)
