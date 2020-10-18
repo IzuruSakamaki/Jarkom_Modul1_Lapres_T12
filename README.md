@@ -53,7 +53,7 @@ Buka Gambar
 ```sh
 Display Filter: http.host == "ppid.dpr.go.id"
 ```
-![Gambar 3.1](img/31.jpg)
+![Gambar 3.1](img/31fixed.jpg)
 ```sh
 Lihat HTML Form URL Encoded pada Paket yang memiliki Method POST
 ```
