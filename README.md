@@ -63,7 +63,7 @@ Lihat HTML Form URL Encoded pada Paket yang memiliki Method POST
 Display Filter: http.authbasic
 ```
 ![Gambar 4.1](img/41.jpg)
-##### 5. 
+##### 5. *Penyelesaian Soal dapat dilihat pada gambar*
 ```sh
 Display Filter: http.host == “aku.pengen.pw”
 ```
@@ -75,8 +75,56 @@ Lihat Bagian Authorization -> Credentials di salah satu paket
 Selesaikan Soalnya
 ```
 ![Gambar 5.2](img/52.png)
-##### 6. ...
-##### 7. ...
+##### 6. *Hasil berupa file PDF yang dapat terbuka*
+```sh
+Display Filter: ftp-data.command == "STOR zipkey.txt"
+```
+![Gambar 6.1](img/61.jpg)
+```sh
+Follow TCP Stream (Ditemukan Passwordnya)
+```
+![Gambar 6.2](img/62.jpg)
+```sh
+Display Filter: ftp-data.command == "STOR Answer.zip"
+```
+![Gambar 6.3](img/63.jpg)
+```sh
+Follow TCP Stream
+```
+![Gambar 6.4](img/64.jpg)
+```sh
+Simpan dalam format ZIP
+```
+![Gambar 6.5](img/65.jpg)
+```sh
+Buka File dalam zipfile menggunakan password yang telah ditemukan
+```
+![Gambar 6.6](img/66.jpg)
+```sh
+File Terbuka
+```
+![Gambar 6.7](img/67.jpg)
+##### 7. *Hasil berupa file PDF*
+```sh
+Display Filter: ftp-data contains "Yes.pdf"
+```
+![Gambar 7.1](img/71.jpg)
+```sh
+Follow TCP Stream
+```
+![Gambar 7.2](img/72.jpg)
+```sh
+Simpan dengan Format ZIP
+```
+![Gambar 7.3](img/73.jpg)
+```sh
+Buka zipfile
+```
+![Gambar 7.4](img/74.jpg)
+```sh
+Buka Yes.pdf
+```
+![Gambar 7.5](img/75.jpg)
 ##### 8. *Readme*
 ```sh
 Display Filter: ftp (Ditemukan bahwa ip Microsoft FTP Service adalah 198.246.117.106)
