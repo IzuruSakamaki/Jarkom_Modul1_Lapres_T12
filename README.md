@@ -1,4 +1,7 @@
-# Jarkom Modul1 Lapres T12
+# Lapres Jarkom - Modul 1 - T12
+## Oleh
+- Mohammad Ifaizul Hasan – 05311840000029
+- Anggada Putra Nagamas – 05311840000025
 ## Soal
 Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 - File pertama untuk menjawab soal nomor 1-5 dan nomor 10.
