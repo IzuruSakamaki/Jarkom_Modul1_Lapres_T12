@@ -197,3 +197,6 @@ Masukkab "src host 127.0.0.1" pada "Capture filter for selected interfaces" dari
 Masukkab "src host monta.if.its.ac.id" pada "Capture filter for selected interfaces" dari Wi-Fi, kemudian akses website monta.if.its.ac.id
 ```
 ![Gambar 15](img/no15.PNG)
+## Kendala
+- Praktikum nya malem jadi saya agak mengantuk (Izul)
+- Kelupaan menuliskan jawaban sampai 15 menit sebelum praktikum berakhir (Izul)
