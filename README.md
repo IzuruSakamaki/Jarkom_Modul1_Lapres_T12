@@ -1,5 +1,4 @@
 # Jarkom Modul1 Lapres T12
-
 ## Soal
 Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 - File pertama untuk menjawab soal nomor 1-5 dan nomor 10.
@@ -26,7 +25,7 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 #### A. Display Filter
 ##### 1. *Webserver: nginx/1.14.0 (Ubuntu)*
 ```sh
-http.host == “testing.mekanis.me”
+Display Filter: http.host == “testing.mekanis.me”
 ```
 ![Gambar 1.1](img/11.jpg)
 ```sh
@@ -50,11 +49,20 @@ Save dengan format JPG
 Buka Gambar
 ```
 ![Gambar 2.4](img/24.jpg)
-3. *http.host == “ppid.dpr.go.id”*
-![Gambar 3.1](img/31.png)
-
-4. ...
-
+##### 3. *Username: 10pemuda , Password: guncangdunia*
+```sh
+Display Filter: http.host == "ppid.dpr.go.id"
+```
+![Gambar 3.1](img/31.jpg)
+```sh
+Lihat HTML Form URL Encoded pada Paket yang memiliki Method POST
+```
+![Gambar 3.2](img/32.jpg)
+##### 4. *Tedapat 5 Paket yang basic authentication method*
+```sh
+Display Filter: http.authbasic
+```
+![Gambar 4.1](img/41.jpg)
 5. *http.host == “aku.pengen.pw”*
 ![Gambar 5.1](img/51.png)
 ![Gambar 5.2](img/52.png)
