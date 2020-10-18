@@ -58,46 +58,91 @@ Display Filter: http.host == "ppid.dpr.go.id"
 Lihat HTML Form URL Encoded pada Paket yang memiliki Method POST
 ```
 ![Gambar 3.2](img/32.jpg)
-##### 4. *Tedapat 5 Paket yang basic authentication method*
+##### 4. *Tedapat 5 Paket yang menggunakan basic authentication method*
 ```sh
 Display Filter: http.authbasic
 ```
 ![Gambar 4.1](img/41.jpg)
-5. *http.host == “aku.pengen.pw”*
+##### 5. 
+```sh
+Display Filter: http.host == “aku.pengen.pw”
+```
+```sh
+Lihat Bagian Authorization -> Credentials di salah satu paket
+```
 ![Gambar 5.1](img/51.png)
+```sh
+Selesaikan Soalnya
+```
 ![Gambar 5.2](img/52.png)
-
-6. ...
-
-7. ...
-
-8. *ftp.request.command == RETR*
-![Gambar 8.1](img/81.jpg)
-
-9. *ftp.request.command =="USER" untuk melihat Username*
+##### 6. ...
+##### 7. ...
+##### 8. *Readme*
+```sh
+Display Filter: ftp (Ditemukan bahwa ip Microsoft FTP Service adalah 198.246.117.106)
+```
+![Gambar 8.1](img/81fixed.jpg)
+```sh
+Display Filter: ftp.request.command == RETR (Object yang didownload adalah Readme)
+```
+![Gambar 8.2](img/81.jpg)
+##### 9. Username: dhana , Password: dhana123
+```sh
+ftp.request.command =="USER" untuk melihat Username
+```
 ![Gambar 9.1](img/no9.PNG)
-   *ftp.request.command =="PASS" untuk melihat Password*
+```sh
+ftp.request.command =="PASS" untuk melihat Password
+```
 ![Gambar 9.2](img/no9pass.PNG)
-10. *Control+F*
+##### 10. *Hasil berupa file PDF*
+```sh
+Control+F
+```
 ![Gambar 10.1](img/no10(1).PNG)
-    *Klik kanan kemudian follow tcp stream, lalu ubah show and save data as menjadi RAW.*
+```sh
+Klik kanan kemudian follow tcp stream, lalu ubah show and save data as menjadi RAW
+```
 ![Gambar 10.2](img/no10(2).PNG)
-    *Klik tombol Save as dan simpan file pdf*
+```sh
+Klik tombol Save as dan simpan file pdf
+```
 ![Gambar 10.3](img/no10(3).PNG)
-    *Buka file yang telah didownload*
+```sh
+Buka file yang telah didownload
+```
 ![Gambar 10.4](img/no10(4).PNG)
 #### B. Capture Filter
-11.*Buat User dan Shared Folder pada Filezilla Server kemudian log in sebagai User melalui Filezilla Client*
+##### 11. *port 21*
+```sh
+Buat User dan Shared Folder pada Filezilla Server kemudian log in sebagai User melalui Filezilla Client
+```
 ![Gambar 11.1](img/no11(1).PNG)
-*Masukkab "port 21" pada "Capture filter for selected interfaces" dari adapter loopback traffic capture*
+```sh
+Masukkab "port 21" pada "Capture filter for selected interfaces" dari adapter loopback traffic capture
+```
 ![Gambar 11.2](img/no11(2).PNG)
-*File yang melalui port 21 atau FTP sudah terfilter*
+```sh
+File yang melalui port 21 atau FTP sudah terfilter
+```
 ![Gambar 11.3](img/no11(3).PNG)
-12. *Masukkab "src port 80" pada "Capture filter for selected interfaces" dari Wi-Fi, kemudian akses website HTTP misalnya monta.if.its.ac.id*
+##### 12. *src port 80*
+```sh
+Masukkab "src port 80" pada "Capture filter for selected interfaces" dari Wi-Fi, kemudian akses website HTTP misalnya monta.if.its.ac.id
+```
 ![Gambar 12](img/no12.PNG)
-13. *Masukkab "dst port 443" pada "Capture filter for selected interfaces" dari Wi-Fi, kemudian akses website HTTPS misalnya its.ac.id*
+##### 13. *dst port 443*
+```sh
+Masukkab "dst port 443" pada "Capture filter for selected interfaces" dari Wi-Fi, kemudian akses website HTTPS misalnya its.ac.id
+```
 ![Gambar 13](img/no13.PNG)
-14. *Masukkab "src host 127.0.0.1" pada "Capture filter for selected interfaces" dari Adapter for loopback traffic capture*
+##### 14. *src host 127.0.0.1*
+```sh
+Masukkab "src host 127.0.0.1" pada "Capture filter for selected interfaces" dari Adapter for loopback traffic capture
+```
 ![Gambar 14](img/no14.PNG)
-15. *Masukkab "src host monta.if.its.ac.id" pada "Capture filter for selected interfaces" dari Wi-Fi, kemudian akses website monta.if.its.ac.id*
+##### 15. *src host monta.if.its.ac.id*
+```sh
+Masukkab "src host monta.if.its.ac.id" pada "Capture filter for selected interfaces" dari Wi-Fi, kemudian akses website monta.if.its.ac.id
+```
 ![Gambar 15](img/no15.PNG)
