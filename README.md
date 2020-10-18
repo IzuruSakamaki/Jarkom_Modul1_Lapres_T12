@@ -24,19 +24,16 @@ Terdapat tiga buah file *.pcapng yang mendukung soal-soal display filter, yaitu:
 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 ## Jawaban
 #### A. Display Filter
-1. *Webserver: nginx/1.14.0 (Ubuntu)*
+##### 1. *Webserver: nginx/1.14.0 (Ubuntu)*
 ```sh
 http.host == “testing.mekanis.me”
 ```
-   ![Gambar 1.1](img/11.jpg)
+![Gambar 1.1](img/11.jpg)
 ```sh
 Follow TCP Stream
 ```
 ![Gambar 1.2](img/12.jpg)
-
-
-
-2. *Hasil berupa gambar Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg*
+##### 2. *Hasil berupa gambar Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg*
 ```sh
 File -> Export Objects -> HTTP
 ```
