@@ -33,6 +33,9 @@ http.host == “testing.mekanis.me”
 Follow TCP Stream
 ```
 ![Gambar 1.2](img/12.jpg)
+
+
+
 2. *Hasil berupa gambar Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg*
 ```sh
 File -> Export Objects -> HTTP
